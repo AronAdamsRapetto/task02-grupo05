@@ -1,0 +1,62 @@
+body,
+h1,
+h2,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+.titulo-filme {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #333;
+}
+
+.titulo-filme:hover {
+  text-decoration: underline;
+}
+
+.img-filme {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd; / Adiciona uma borda fina ao redor da imagem /
+}
+
+.sinopse-filme {
+  margin-top: 10px;
+  color: #555;
+}
